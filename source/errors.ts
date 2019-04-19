@@ -1,0 +1,17 @@
+/*!
+ * Copyright (C) 2018-2019 Juridoc
+ */
+
+/**
+ * API errors.
+ */
+export const enum Errors {
+  NOT_FOUND = 2000,
+  LOGIN_NOT_ENABLED,
+  CONFIRMATION_PENDING,
+  CONFIRMATION_NOT_FOUND,
+  NAME_DENIED,
+  EMAIL_DENIED,
+  DISABLING_DENIED,
+  REMOVAL_DENIED
+}
